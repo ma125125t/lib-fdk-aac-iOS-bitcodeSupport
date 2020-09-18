@@ -49,5 +49,6 @@ build-fdk-aac.sh lipo
 ## Verify bitcode
 
 `lipo -thin arm64 libfdk-aac.a  -output libfdk-aac-arm64.a `
+
 `otool -l libfdk-aac-arm64.a | grep __LLVM | wc -l`
 

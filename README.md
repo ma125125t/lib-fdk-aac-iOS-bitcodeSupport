@@ -1,4 +1,4 @@
-# build-fdk-aac-for-iOS-with-bitcode
+# lib-fdk-aac-iOS-bitcodeSupport
 
 Shell script to build fdk-aac for use in iOS apps.
 
